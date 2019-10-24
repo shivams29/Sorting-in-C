@@ -9,7 +9,7 @@ int main()
 	{cin>>arr[i];}
 	cout<<"Sorting :\n";
 	for(j=0;j<size-1;j++){     
-	for(i=0;i<size-j-1;i++)    //Heaviest Element piche jayega.
+	for(i=0;i<size-j-1;i++)    //Heaviest Element will be transferred at the end.
 	{
 		if(arr[i]>arr[i+1])
 		{
